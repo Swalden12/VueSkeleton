@@ -1,5 +1,5 @@
 <script setup>
-const msg = 'Todo App';
+const msg = 'Todo App!';
 </script>
 
 <template>

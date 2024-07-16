@@ -2,20 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylemain" href="main.css">
+    <link rel="icon" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do App</title>
+    <title>To-Do App!</title>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
-<div class="container"></div>
-<div class="todo"></div>
-<h2>To-Do List</h2>
-<div class="row"></div>
-<input type="text" id="input-box" placholder="Add yor text">
-<button>Add</button>
+<div class="container">
+  <div class="todo">
+    <h2>To-Do List </h2>
+    <div class="row">
+      <input type="text" id="input-box" placholder="Add yor text">
+      <button oneclick= "addTask()"">Add</button>
+    </div>
+    <ul>id="list-container"
+      <!-- <li class="checked">Task 1</li>
+      <Li>Task 2</Li>
+      <Li>Task 3</Li> -->
+    </ul>
+  </div>
+</div>
+</script src="script.js"></script>
 </body>
 </html>
