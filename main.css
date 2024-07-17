@@ -59,11 +59,7 @@ ul li{
     user-select: none;
     cursor: pointer;
     position: relative;
-}
-ul li.checked{
-    color:#555;
-    text-decoration: line-through;
-}
+
 ul li::before{
     content: '';
     position: absolute;
@@ -74,6 +70,12 @@ ul li::before{
     background-position: center;
     top: 12px;
     left: 8px;
+
+}
+ul li.checked{
+    color:#555;
+    text-decoration: line-through;
+}
 }
 ul li span{
     position: absolute;
