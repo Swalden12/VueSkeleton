@@ -2,22 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylemain" href="main.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do App</title>
-    <script type="module" crossorigin src="/assets/index-aa4a1006.js"></script>
-    <link rel="stylesheet" href="/assets/index-96135db0.css">
+    <script type="module" crossorigin src="/assets/index-e0cade87.js"></script>
+    <link rel="stylesheet" href="/assets/index-8ceb863e.css">
   </head>
   <body>
     <div id="app"></div>
     
   </body>
 </html>
-<div class="container"></div>
-<div class="todo"></div>
-<h2>To-Do List</h2>
-<div class="row"></div>
-<input type="text" id="input-box" placholder="Add yor text">
-<button>Add</button>
+<div class="container">
+  <div class="todo">
+    <h2>To-Do List </h2>
+    <div class="row">
+      <input type="text" id="input-box" placeholder="Add your text">
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="list-container">
+      <!-- <li class="checked">Task 1</li>
+      <Li>Task 2</Li>
+      <Li>Task 3</Li> -->
+    </ul>
+  </div>
+</div>
+<script src="Script.js"></script>
 </body>
 </html>
